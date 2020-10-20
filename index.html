@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My one page website</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <nav>
+        <ul class="topnav-left" id="dropdownid">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="topnav-right "><a href="#signup">Sign Up</a></li>
+            <li class="topnav-right "><a href="#signin">Sign In</a></li>
+            <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="sec-1-gradient">
+                <div class="centering">
+                    <h1 class="large">Join in My Website</h1>
+                    <h1 class="large">Fill it...Here you Go!!</h1>
+                <form>
+                        <h2>Username</h2>
+                        <input class="inputbox" type="text" placeholder="Username">
+                        <h2>Password</h2>
+                        <input class="inputbox" type="password" placeholder="Password"></form>
+            </div>
+    </div>
+   
+   
+    <header>
+        <h1 class="sec-2-header"> Welcome to my website</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon"> 
+                        <img src="logo1.png">
+                    </div>
+                    <label>About something</label>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Pellentesque in lectus vel erat rutrum luctus at imperdiet ipsum.</p>
+                </div>
+            </div>
+ 
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="logo1.png">
+                    </div>
+                    <label>About something</label>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Pellentesque in lectus vel erat rutrum luctus at imperdiet ipsum. </p>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="logo1.png">
+                    </div>
+                    <label>About something</label>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Pellentesque in lectus vel erat rutrum luctus at imperdiet ipsum. </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="learn">Learn More</button>
+            </div>
+        </div>
+         </div>
+
+         <hr>
+         <div class="container">
+             <div class="row">
+             <div class="col-7">
+                 <article>
+                     <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at magna ut nibh sollicitudin viverra ut accumsan neque. Maecenas lobortis, neque sed elementum hendrerit, ante justo facilisis sapien, quis tempor leo quam non lorem. 
+                        Aliquam porta, nulla ut efficitur tempor, dolor dui porta orci, at tincidunt dolor lacus ac augue. Nulla congue eget tellus id molestie.
+                         Proin vel dui at massa pharetra ullamcorper. Aenean et semper justo. In nec facilisis lacus, in suscipit massa. Donec vitae ligula dolor. 
+                         Aliquam urna leo, posuere sit amet pellentesque eget, pharetra vel nisi. Integer diam nibh, finibus id lacus vel, lacinia posuere ipsum. Ut ullamcorper sit amet nulla id rhoncus. Curabitur euismod ac dui a aliquet.  
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at magna ut nibh sollicitudin viverra ut accumsan neque. Maecenas lobortis, neque sed elementum hendrerit, ante justo facilisis sapien, quis tempor leo quam non lorem.
+                     </p>
+                 </article>
+             </div>
+             <div class="col-5">
+                 <div class="blogimg">
+                     <img src="logo1.png"> 
+                 </div>
+             </div>
+         </div>
+        </div>
+
+        <footer>
+            <div class="containers">
+                <div class="rows">
+                    <div class="column-6 column-12">
+                        <div class="left-text-content">
+                            <p>Copyright &copy;. 
+                            
+                            - Design: <bold>Dharsanasri</bold>
+                        </div> 
+                    </div>
+                    <div class="column-6 column-12">
+                        <div class="right-text-content">
+                                <ul class="social-icons">
+                                    <li><p>Follow Us</p></li>
+                                    <li><a href="#" target="blank"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#" target="blank"><i class="fab fa-youtube"></i></a></li>
+                                    <li><a href="#" target="blank"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#" target="blank"><i class="fab fa-instagram"></i></a></li>
+                                    
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <script>
+        function dropdownMenu(){
+            var x = document.getElementById("dropdownid");
+            if(x.className === "topnav-left")
+            {
+                x.className +=" responsive";
+            } else{
+                x.className = "topnav-left";
+            }
+        }
+    </script>
+</body>
+</html>
